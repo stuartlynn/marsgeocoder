@@ -16,8 +16,8 @@ app.get('/:query', function(req,res){
 
   res.json(results)
 })
-
-var server = app.listen(2298, function () {
+var port = process.env.PORT || 2298
+var server = app.listen(port, function () {
   var host = server.address().address;
   var port = server.address().port;
 
