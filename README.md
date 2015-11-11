@@ -1,6 +1,6 @@
-# marsgeocoder
+# Mars Geocoder
 
-This is a quick and dirty geocoder for Mars using data from:
+This is a quick and dirty geocoder for Mars using data from [http://planetarynames.wr.usgs.gov/](http://planetarynames.wr.usgs.gov/):
 You can check it out [here](https://geocodemars.herokuapp.com/olympus)
 
 ## Usage
