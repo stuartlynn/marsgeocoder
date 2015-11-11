@@ -1,5 +1,3 @@
-var csv = require('csv');
-var fs = require('fs')
 var express = require('express')
 var app = express();
 var fuzzy = require('fuzzy')
