@@ -13,63 +13,63 @@ This will return the following geojson
 
 ```geojson
 {
-  type: "FeatureCollection",
-  features: [
+  "type": "FeatureCollection",
+  "features": [
     {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
         226.2,
         18.65
       ]
     },
-    properties: {
-      Feature_Name: "Olympus Mons",
-      Target: "Mars",
-      Diameter: "610.13",
-      Coordinate_System: "Planetocentric +East 0 - 360",
-      Approval_Status: "Approved",
-      Approval_Date: "1973",
-      Origin: "Classical albedo feature name."
+    "properties": {
+      "Feature_Name": "Olympus Mons",
+      "Target": "Mars",
+      "Diameter": "610.13",
+      "Coordinate_System": "Planetocentric +East 0 - 360",
+      "Approval_Status": "Approved",
+      "Approval_Date": "1973",
+      "Origin": "Classical albedo feature name."
     }
   },
   {
-    type: "Feature",
-    geometry: {
-      type: "Point",
-      coordinates: [
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
         226.44,
         18.4
       ]
     },
-    properties: {
-      Feature_Name: "Olympus Rupes",
-      Target: "Mars",
-      Diameter: "1914.77",
-      Coordinate_System: "Planetocentric +East 0 - 360",
-      Approval_Status: "Approved",
-      Approval_Date: "1976",
-      Origin: "Classical albedo feature name."
+    "properties": {
+      "Feature_Name": "Olympus Rupes",
+      "Target": "Mars",
+      "Diameter": "1914.77",
+      "Coordinate_System": "Planetocentric +East 0 - 360",
+      "Approval_Status": "Approved",
+      "Approval_Date": "1976",
+      "Origin": "Classical albedo feature name."
     }
   },
   {
-    type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [
+    "type"": ""Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           174.16,
           86.04
         ]
       },
-      properties: {
-        Feature_Name: "Olympia Rupēs",
-        Target: "Mars",
-        Diameter: "1197.04",
-        Coordinate_System: "Planetocentric +East 0 - 360",
-        Approval_Status: "Approved",
-        Approval_Date: "Jul 25, 2007",
-        Origin: "Classical albedo feature name."
+      "properties": {
+        "Feature_Name": "Olympia Rupēs",
+        "Target": "Mars",
+        "Diameter": "1197.04",
+        "Coordinate_System": "Planetocentric +East 0 - 360",
+        "Approval_Status": "Approved",
+        "Approval_Date": "Jul 25, 2007",
+        "Origin": "Classical albedo feature name."
       }
     }
   ]
@@ -90,6 +90,6 @@ Then navigate to [http://localhost:2298/mount](http://localhost:2298/mount) to s
 
 ## To Do
 
--[ ] Include a proper map projection
--[ ] Add a reverse geocoder
--[ ] Extend beyond Mars to other planetary bodies
+- [ ] Include a proper map projection
+- [ ] Add a reverse geocoder
+- [ ] Extend beyond Mars to other planetary bodies
