@@ -11,7 +11,8 @@ var options = {
 app.get('/:query', function(req,res){
   var searchTerm = req.params.query
   var results = fuzzy.filter(searchTerm, locations, options).map(function(f){return f.original});
-  results   = { "type":"FeatureCollection", "features": results}
+  var crs = {"type": "link", "properties": {"href": "http://spatialreference.org/ref/iau2000/49901/proj4/","type": "proj4"}}
+  results   = { "type":"FeatureCollection", "crs":crs, "features": results}
   res.json(results)
 })
 
