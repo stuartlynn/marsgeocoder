@@ -54,7 +54,7 @@ This will return the following geojson
     }
   },
   {
-    "type"": ""Feature",
+    "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
